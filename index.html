@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +12,8 @@
 
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/style.css">
+
+    <script src="./src/scripts/script.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -52,6 +54,7 @@
         </div>
 
         <div class="header__toggle">
+                                    <!-- bi-moon-stars -->
             <i id="toggleTheme" class="bi bi-sun"></i>
         </div>
     </header>
@@ -87,5 +90,53 @@
             </li>
         </ul>
     </nav>
+
+    <main>
+        <div class="main__content1">
+            <h1><strong>Soluções Criativas &</strong> Desenvolvimento Front-End</h1>
+            <p>Samuel Souza, Mauá-SP, Desenvolvedor Front-End Junior</p>
+
+            <ul class="menu menu--social">
+                <li>
+                    <a class="menu__link" href=""></a>
+                    <i class="manu__icon bi bi-github"></i>
+                </li>
+
+                <li>
+                    <a class="menu__link" href=""></a>
+                    <i class="manu__icon bi bi-linkedin"></i>
+                </li>
+
+                <li>
+                    <a class="menu__link" href=""></a>
+                    <i class="manu__icon bi bi-instagram"></i>
+                </li>
+            </ul>
+
+            <button class="btn btn--primary">
+                <span>Ver Projetos</span>
+                <i class="bi bi-arrow-down-right"></i>
+            </button>
+        </div>
+    </main>
+
+    <section class="skills">
+        <h2>Conhecimento nas principais tecnologias do mercado</h2>
+
+        <ul class="skills__list">
+            <li class="skills__item">
+                <i class="skills__logo bi bi-javascript"></i>
+            </li>
+
+            <li class="skills__item">
+                <i class="skills__logo bi bi-bootstrap"></i>
+            </li>
+
+            <li class="skills__item">
+                <i class="skills__logo bi bi-css"></i>
+            </li>
+        </ul>
+    </section>
+    
 </body>
 </html>
